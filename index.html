@@ -2,30 +2,340 @@
 <html lang="en">
 
 <head>
+
     <!--- Basic Page Needs
      ================================================== -->
     <meta charset="UTF-8">
     <meta name="description" content="This is my Student Bio" />
-	<meta name="author" content="Rodrigo M. Gimenes" />
+    <meta name="author" content="Rodrigo M. Gimenes" />
 
     <title>Rodrigo M. Gimenes</title>
 
-	<!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
      ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
+	<!-- CSS
+     ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+
     <!-- Favicons
 	 ================================================== -->
 	<link rel="shortcut icon" href="favicon/faviconR.png" />
+
 </head>
 
 <body>
-    <!-- H1 = presenting myself
-	 ================================================== -->
-    <h1>Hello there, I'm Rodrigo.</h1>
 
-    <img class="profile-pic" src="images/profilepic.gif" alt="profile-pic" height="200" width="200"> <!-- Presenting my profile photo -->
+    <!-- Header
+     ================================================== -->
+    <header id="home">
+
+        <!-- CSS Navigation Bar = List of Links
+   	     ================================================== -->
+        <nav id="nav-wrap">
+
+            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                <li><a class="smoothscroll" href="#about">About</a></li>
+                <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            </ul> <!-- end of #nav -->
+
+        </nav> <!-- end of #nav-wrap -->
+
+        <div class="row banner">
+            <div class="banner-text">
+            
+                <h1 class="responsive-headline">Hello there, I'm Rodrigo.</h1> <!-- title = presenting myself -->
+
+                <h3>
+                    I'm a <span>Programmer</span> and <span>Full-Stack Web Developer</span>, 
+                    and also a passionate <span>learner</span>. I guess you're here because 
+                    you want to know a bit about me, huh?! I am not all that good at talking 
+                    about myself, but I'll give it a shot. Let's <span>start scrolling</span> 
+                    and learn more <a class="smoothscroll" href="#about"><u>about me</u></a>.
+                </h3> <!-- end of my intro -->
+            
+                <hr />
+            
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/profile.php?id=100040648456479" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			        <li><a href="https://www.linkedin.com/in/rodrigo-m-gimenes-b0a1a227/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				    <li><a href="https://www.instagram.com/rodrigomgimenes/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				    <li><a href="https://join.skype.com/invite/B9JicSF0g7Nl" target="_blank"><i class="fa fa-skype"></i></a></li>
+				    <li><a href="https://github.com/rodrigomgimenes" target="_blank"><i class="fa fa-github"></i></a></li>
+                </ul> <!-- end .social -->
+
+            </div> <!-- end of .banner-text -->
+        </div> <!-- end of .row .banner -->
+
+        <p class="scrolldown">
+            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        </p> <!-- end of .scrolldown -->
+
+    </header> <!-- Header End -->
+
+
+    <!-- About Section
+     ================================================== -->
+    <section id="about">
+
+        <div class="row">
+
+            <div class="three columns">
+                <img class="profile-pic"  src="images/profilepic.gif" alt="profile-pic" height="300" width="300"> <!-- Presenting my profile photo -->
+            </div> <!-- end of .three .columns -->
+
+            <div class="nine columns main-col">
+
+                <h2>About Me</h2>
+
+                <p>
+                    My name is <span>Rodrigo M. Gimenes</span>, I was born in the city of 
+                    <span>Sao Paulo</span>, <span>Brazil<span> (<i>23.5505° S</i>, 
+                    <i>46.6333° W</i>). Currently, I am living in <span>Toronto</span>, 
+                    <span>Canada ON</span> (<i>43.6532° N</i>, <i>79.3832° W</i>). I 
+                    possess a <i>Bachelor of Science Major</i> in <span>Computing 
+                    Science<span> at <span>Universidade Presbiteriana Mackenzie</span>.
+               
+                    <br /><br />
+               
+                    I have been working as a Software Developer for at least 8+ years in
+                    Brazil, with professional experience in financial organizations and 
+                    banking, and web technologies. But I've always seen myself standing 
+                    on a sweet spot where Design and Code intersects.
+               
+                    <br /><br />
+               
+                    Throughout my time studying Computer Science at university. I've 
+                    realized a good developer is always acquiring new skills, challenging 
+                    their assumptions, and seeking feedback in order to grow. And I've 
+                    always had a passion of studying abroad. So now, I'm a student at 
+                    <span>University of Toronto<span> learning more about <span>web 
+                    development</span>.
+               
+                    <br /><br />
+               
+                    I thrive on new experiences and stepping out of my comfort zone to 
+                    learn what my strengths and weaknesses are, not only in work but in 
+                    all aspects of life.
+               
+                    <br /><br />
+               
+                    I enjoy taking complex problems and turning them into simple and 
+                    beautiful interface designs. Also, love the logic and structure of 
+                    coding. I am a person who emphasizes on clean and efficient coding 
+                    practices, whether it be HTML5, CSS3 or Javascript.
+               
+                    <br /><br />
+               
+                    When I'm not coding, you'll find me in the gym, skateboarding, playing 
+                    soccer (well, I am Brazilian!!) or on the court shooting some hoops - 
+                    <i>even though I don't have enough size or skill to play<i>. Almost 
+                    forgot, I also love to read and catch a movie once in a while.
+                </p> <!-- end of About Me paragraph -->
+
+                <div class="row">
+                    <div class="columns contact-details">
+                        
+                        <h2>Contact Details</h2>
+                  
+                        <p class="address">
+                            <span>Rodrigo Macedo Gimenes</span><br />
+                            <span> XXX XXXXXXXX XXXXXX XXXX<br />
+                                   XXXXX XXXX, ON XXX XXX CA
+                            </span><br />
+                            <span>(XXX)XXX-XXXX</span><br />
+                            <span>rodrigomacedogimenes@gmail.com</span>
+                        </p> <!-- end of .address -->
+
+                    </div> <!-- end of .columns .contact-details -->
+
+                    <div class="columns download">
+
+                        <p>
+                            <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                        </p>
+
+                    </div> <!-- end of .columns .download-->
+                </div> <!-- end of .row -->
+            </div> <!-- end of .nine .columns .main-col -->
+        </div> <!-- end of .row -->
+
+    </section> <!-- About section End -->
+
+
+    <!-- Resume Section
+     ================================================== -->
+    <section id="resume">
+
+        <!-- Education
+         ================================================== -->
+        <div class="row education">
+
+            <div class="three columns header-col">
+                <h1><span>Education</span></h1>
+            </div> <!-- end of .three .columns .header-col -->
+
+            <div class="nine columns main-col">
+                <div class="row item">
+                    <div class="twelve columns">
+
+                        <h3>University ... </h3>
+
+                        <p class="info">Master in ... <span>&bull;</span> <em class="date">Month Year</em></p>
+
+                        <p>
+                            Coming soon...
+                        </p> <!-- end of University paragraph -->
+
+                    </div> <!-- end of .twelve .columns -->
+                </div> <!-- end of .row .item -->
+
+                <div class="row item">
+                    <div class="twelve columns">
+
+                        <h3>School ... </h3>
+                        
+                        <p class="info">Degree in ... <span>&bull;</span> <em class="date">Month Year</em></p>
+
+                        <p>
+                            Coming soon...
+                        </p> <!-- end of School paragraph -->
+
+                    </div> <!-- end of .twelve .columns -->
+                </div> <!-- end of .row .item -->
+            </div> <!-- end of .nine .columns .main-col -->
+        </div> <!-- End of Education -->
+
+
+        <!-- Work
+         ================================================== -->
+        <div class="row work">
+
+            <div class="three columns header-col">
+                <h1><span>Work</span></h1>
+            </div> <!-- end of .three .columns .header-col -->
+
+            <div class="nine columns main-col">
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Company 1</h3>
+                        
+                        <p class="info">My Position 1 <span>&bull;</span> <em class="date">Month Year - Present</em></p>
+
+                        <p>
+                            Coming soon...
+                        </p> <!-- end of Company 1 paragraph -->
+
+                    </div> <!-- end of .twelve .columns -->
+
+                </div> <!-- end of .row .item -->
+
+                <div class="row item">
+                    <div class="twelve columns">
+
+                        <h3>Company 2</h3>
+                        
+                        <p class="info">My Position 2 <span>&bull;</span> <em class="date">Month Year - Month Year</em></p>
+
+                        <p>
+                            Coming soon...
+                        </p> <!-- end of Company 2 paragraph -->
+
+                    </div> <!-- end of .twelve .columns -->
+                </div> <!-- end of .row .item -->
+            </div> <!-- end of .nine .columns .main-col -->
+        </div> <!-- End of Work -->
+
+
+        <!-- Skills
+         ================================================== -->
+        <div class="row skill">
+
+            <div class="three columns header-col">
+                <h1><span>Skills</span></h1>
+            </div> <!-- end of .three .columns .header-col -->
+
+            <div class="nine columns main-col">
+
+                <p>
+                    Coming soon...
+                </p> <!-- end of Skills paragraph -->
+
+				<div class="bars">
+				   <ul class="skills">
+                        <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                        <li><span class="bar-expand css"></span><em>CSS</em></li>
+                        <li><span class="bar-expand javascript"></span><em>Javascript</em></li>
+                        <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					</ul>
+				</div> <!-- end of .bars -->
+			</div> <!-- end of .nine .columns .main-col -->
+        </div> <!-- End of Skills -->
+
+    </section> <!-- Resume section End -->
+
+
+    <!-- Portfolio Section
+     ================================================== -->
+    <section id="portfolio">
+
+        <div class="row">
+            <div class="nine columns main-col">
+
+                <h1>Check Out Some of My Works.</h1>
+
+                <!-- Portfolio
+                 ================================================== -->
+                <p>
+                    Coming soon...
+                </p> <!-- end of Portfolio paragraph -->
+
+            </div> <!-- end of .nine .columns .main-col -->
+        </div> <!-- end of .row -->
+
+    </section> <!-- Portfolio section End -->
+
+
+    <!-- Footer
+     ================================================== -->
+    <footer>
+
+        <div class="row">
+            <div class="twelve columns">
+
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/profile.php?id=100040648456479" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			        <li><a href="https://www.linkedin.com/in/rodrigo-m-gimenes-b0a1a227/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				    <li><a href="https://www.instagram.com/rodrigomgimenes/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				    <li><a href="https://join.skype.com/invite/B9JicSF0g7Nl" target="_blank"><i class="fa fa-skype"></i></a></li>
+				    <li><a href="https://github.com/rodrigomgimenes" target="_blank"><i class="fa fa-github"></i></a></li>
+                </ul> <!-- end .social -->
+
+                <ul class="copyright">
+                    <li>&copy; Copyright 2019 RMG</li>
+                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+                </ul> <!-- end .copyright -->
+
+            </div><!-- end of .twelve .columns -->
+
+            <div id="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+            </div> <!-- end of .go-top -->
+        </div> <!-- end of .row -->
+
+    </footer> <!-- Footer End -->
+
+
 </body>
 
 </html>
