@@ -19,6 +19,8 @@
 	<!-- CSS
      ================================================== -->
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Favicons
 	 ================================================== -->
@@ -35,9 +37,6 @@
         <!-- CSS Navigation Bar = List of Links
    	     ================================================== -->
         <nav id="nav-wrap">
-
-            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
             <ul id="nav" class="nav">
                 <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
@@ -76,7 +75,7 @@
         </div> <!-- end of .row .banner -->
 
         <p class="scrolldown">
-            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+            <a class="smoothscroll" href="#about"><i class="fa fa-arrow-circle-down"></i></a>
         </p> <!-- end of .scrolldown -->
 
     </header> <!-- Header End -->
@@ -98,27 +97,29 @@
 
                 <p>
                     My name is <span>Rodrigo M. Gimenes</span>, I was born in the city of 
-                    <span>Sao Paulo</span>, <span>Brazil<span> (<i>23.5505° S</i>, 
+                    <span>Sao Paulo</span> - <span>Brazil</span> (<i>23.5505° S</i>, 
                     <i>46.6333° W</i>). Currently, I am living in <span>Toronto</span>, 
                     <span>Canada ON</span> (<i>43.6532° N</i>, <i>79.3832° W</i>). I 
-                    possess a <i>Bachelor of Science Major</i> in <span>Computing 
-                    Science<span> at <span>Universidade Presbiteriana Mackenzie</span>.
+                    possess a <i>Bachelor of Science Major</i> in <span>Computer 
+                    Science</span> at <a href="https://www.mackenzie.br/" target="_blank">
+                    <u><span>Universidade Presbiteriana Mackenzie</span></u></a>.
                
                     <br /><br />
                
-                    I have been working as a Software Developer for at least 8+ years in
-                    Brazil, with professional experience in financial organizations and 
-                    banking, and web technologies. But I've always seen myself standing 
-                    on a sweet spot where Design and Code intersects.
+                    I have been working as a <span>Software Developer</span> for at least 
+                    <i>8+ years</i> in <span>Brazil</span>, with professional experience 
+                    in <i>financial organizations</i> and <i>banking</i>, and <i>web 
+                    technologies</i>. But I've always seen myself standing on a sweet spot 
+                    where Design and Code intersects.
                
                     <br /><br />
                
-                    Throughout my time studying Computer Science at university. I've 
+                    Throughout my time studying <i>Computer Science</i> at university. I've 
                     realized a good developer is always acquiring new skills, challenging 
                     their assumptions, and seeking feedback in order to grow. And I've 
                     always had a passion of studying abroad. So now, I'm a student at 
-                    <span>University of Toronto<span> learning more about <span>web 
-                    development</span>.
+                    <span>University of Toronto</span> learning more about <i>web 
+                    development</i>.
                
                     <br /><br />
                
@@ -131,14 +132,15 @@
                     I enjoy taking complex problems and turning them into simple and 
                     beautiful interface designs. Also, love the logic and structure of 
                     coding. I am a person who emphasizes on clean and efficient coding 
-                    practices, whether it be HTML5, CSS3 or Javascript.
+                    practices, whether it be <i>HTML5</i>, <i>CSS3</i> or <i>Javascript</i>.
                
                     <br /><br />
                
                     When I'm not coding, you'll find me in the gym, skateboarding, playing 
-                    soccer (well, I am Brazilian!!) or on the court shooting some hoops - 
-                    <i>even though I don't have enough size or skill to play<i>. Almost 
-                    forgot, I also love to read and catch a movie once in a while.
+                    soccer (<span>well, I am Brazilian!!</span>) or on the court 
+                    shooting some hoops - <i>even though I don't have enough size or skill 
+                    to play</i>. Almost forgot, I also love to read and catch a movie once 
+                    in a while.
                 </p> <!-- end of About Me paragraph -->
 
             </div> <!-- end of .two .columns .main-col -->
@@ -286,28 +288,30 @@
      ==================================================  -->
     <section id="contact">
         <div class="row">
-            <div class="columns contact-details">
-                
-                <h2>Contact Details</h2>
-          
-                <p class="address">
-                    <span>Rodrigo Macedo Gimenes</span><br />
-                    <span> XXX XXXXXXXX XXXXXX XXXX<br />
-                           XXXXX XXXX, ON XXX XXX CA
-                    </span><br />
-                    <span>(XXX)XXX-XXXX</span><br />
-                    <span>rodrigomacedogimenes@gmail.com</span>
-                </p> <!-- end of .address -->
+            <div class="three columns main-col">
+                <div class="columns contact-details">
+                    
+                    <h2>Contact Details</h2>
+            
+                    <p class="address">
+                        <span>Rodrigo Macedo Gimenes</span><br />
+                        <span> XXX XXXXXXXX XXXXXX XXXX<br />
+                            XXXXX XXXX, ON XXX XXX CA
+                        </span><br />
+                        <span>(XXX)XXX-XXXX</span><br />
+                        <span>rodrigomacedogimenes@gmail.com</span>
+                    </p> <!-- end of .address -->
 
-            </div> <!-- end of .columns .contact-details -->
+                </div> <!-- end of .columns .contact-details -->
 
-            <div class="columns download">
-                
-                <p>
-                    <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                </p>
+                <div class="columns download">
+                    
+                    <p>
+                        <a href="https://guillaumeb.com/journal/img-large/404.jpg" target="_blank" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                    </p>
 
-            </div> <!-- end of .columns .download-->
+                </div> <!-- end of .columns .download-->
+            </div> <!-- end of .three .columns .main-col -->
         </div> <!-- end of .row -->
 
     </section> <!-- Contact section End -->
@@ -336,7 +340,7 @@
             </div><!-- end of .three .columns -->
 
             <div id="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+                <a class="smoothscroll" title="Back to Top" href="#home"><i class=" fa fa-home"></i></a>
             </div> <!-- end of .go-top -->
         </div> <!-- end of .row -->
 
