@@ -216,12 +216,12 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
-#about .main-col p span:hover { color: #11ABB0; }
+/* #about .main-col p span:hover { color: #11ABB0; } */
 
 #about .main-col p u {
    color: #fff;
 }
-#about .main-col p u:hover { color: #11ABB0; }
+#about .main-col p u:hover { color: #F06000; }
 
 #about .main-col p i {
    color: #11ABB0;
